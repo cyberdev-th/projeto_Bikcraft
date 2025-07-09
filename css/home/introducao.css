@@ -29,6 +29,12 @@
     margin-bottom: 20px;
 }
 
+@media (min-width: 1200px) {
+    .depoimento img {
+        max-height: 520px;
+    }
+}
+
 @media (max-width: 800px) {
     .introducao-bg {
         background: var(--cor-11);
